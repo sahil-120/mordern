@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Black.woff2") format("woff2"), url("../fonts/NotoSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-BlackItalic.woff2") format("woff2"), url("../fonts/NotoSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-ExtraBold.woff2") format("woff2"), url("../fonts/NotoSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/NotoSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-ExtraLight.woff2") format("woff2"), url("../fonts/NotoSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/NotoSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("NotoSans-Italic.woff2") format("woff2"), url("NotoSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Light.woff2") format("woff2"), url("../fonts/NotoSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-LightItalic.woff2") format("woff2"), url("../fonts/NotoSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Medium.woff2") format("woff2"), url("../fonts/NotoSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-MediumItalic.woff2") format("woff2"), url("../fonts/NotoSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Regular.woff2") format("woff2"), url("../fonts/NotoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-SemiBold.woff2") format("woff2"), url("../fonts/NotoSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/NotoSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Thin.woff2") format("woff2"), url("../fonts/NotoSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-ThinItalic.woff2") format("woff2"), url("../fonts/NotoSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-size: 24px;
+  font-family: "Noto Sans" sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container-fluid {
+  max-width: 100%;
+}
+
+.max-width {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container {
+  max-width: 1365px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-family: "Noto Sans";
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  color: #14395b;
+  text-shadow: 0px 3px 6px rgba(255, 255, 255, 0.16);
+}
+
+p {
+  font-family: "Noto Sans";
+  font-weight: normal;
+  font-size: 24px;
+  text-align: left;
+  color: #8d9598;
+  opacity: 0.79;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mg-top {
+  margin-top: 50px;
+}
+
+.mg-bottom {
+  margin-bottom: 50px;
+}
+
+.s-mg-bottom {
+  margin-bottom: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #14395b;
+}
+
+header nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header nav .logo img {
+  width: 150px;
+}
+
+header nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+header nav ul li a {
+  padding: 10px 17px;
+  font-size: 18px;
+  color: #2f4665;
+}
+
+header nav ul li a:hover {
+  color: #2289ff;
+}
+
+.hero-banner {
+  background-image: url(../images/hero-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-banner h1 {
+  font-weight: bold;
+  font-size: 88px;
+  text-align: left;
+  color: #fff;
+  text-shadow: 0px 3px 6px rgba(255, 255, 255, 0.16);
+  padding: 213px 0 213px 84px;
+}
+
+.f--choose {
+  margin-top: 50px;
+}
+
+.boxs {
+  background-color: #fff;
+}
+
+.boxs img {
+  width: 316px;
+}
+
+.boxs p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+p.cont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+p.cont a {
+  border-radius: 20px;
+  background: #2289ff;
+  padding: 31px 244px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
